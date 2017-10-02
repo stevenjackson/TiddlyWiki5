@@ -1,0 +1,16 @@
+{
+  "description": "Tiddlywiki with Github Flavored Markdown",
+    "plugins": [
+      "stevenjackson/markdown-it"
+    ],
+    "themes": [
+      "tiddlywiki/vanilla",
+      "tiddlywiki/snowwhite"
+    ],
+    "includeWikis": [
+    ],
+    "build": {
+      "index": [
+        "--rendertiddler","$:/core/save/all","tiddly.html","text/plain"]
+    }
+}
